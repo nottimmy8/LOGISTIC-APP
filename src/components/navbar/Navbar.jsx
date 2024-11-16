@@ -29,15 +29,15 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "fixed top-20 right-0 w-full h-[150px] bg-white z-10  duration-500 py-4 shadow-md lg:hidden "
-            : "fixed top-[-100%] right-0 w-full h-[150px] bg-white z-10  duration-500 py-4 shadow-md lg:hidden "
+            ? "fixed top-20 right-0 w-full h-[150px] bg-white z-10  duration-500 py-4 shadow-md lg:hidden transition "
+            : "fixed top-[-100%] right-0 w-full h-[150px] bg-white z-10  duration-500 py-4 shadow-md lg:hidden transition "
         }
       >
         <div className=" flex flex-col items-center justify-between gap-4 ">
-          <button className=" bg-black text-white hover:bg-transparent hover:text-black shadow-md ">
+          <button className=" bg-black text-white hover:bg-transparent hover:text-black shadow-md transition duration-500 ">
             LOGIN
           </button>
-          <button className="bg-white text-black hover:bg-black hover:text-white shadow-md">
+          <button className="bg-white text-black hover:bg-black hover:text-white shadow-md transition duration-500">
             SIGNUP
           </button>
         </div>
