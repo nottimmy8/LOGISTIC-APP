@@ -26,18 +26,6 @@ const Howtosend = () => {
                 </div>
               );
             })}
-            {/* <div className=" text-center ">
-              <div>
-                <img
-                  src="https://eclipse.com.ng/static/media/Vector3.d595c4f6.svg"
-                  alt=""
-                  className=" w-[70%] h-full "
-                />
-              </div>
-              <div>
-                <p>dd</p>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
